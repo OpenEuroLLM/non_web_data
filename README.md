@@ -36,7 +36,7 @@ There are also columns without a dropdown list that need a specific format:
 
 - In the DOWNLOAD_SOURCE column, it is better to use the URLs where the data is placed, not only the home page. For example, I saved these URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia, instead of https://www.argia.eus/ . This will make the next step much easier. I used to save these multiple URLs separated by a line break in the same cell.
 
-- In MIXED_LANGUAGES the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column or as cited before, if it is a language not present in the LANGUAGE column.
+- In MIXED_LANGUAGES the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
 
 <h3>1.3.	How I found relevant data in the Basque test</h3>
 
