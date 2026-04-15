@@ -28,7 +28,7 @@ We think that every person/group should work with only one different language at
 
 <h3>1.2 Add a row to the shared Google sheets</h3>
 
-We shared a [Google sheets](https://docs.google.com/spreadsheets/d/1ERMeyCK1gKepeToE2TkwSuv_xYyQbggwaCYIIp3k-Y0/edit?gid=0#gid=0) document where we need to add every source of data and its relevant or helpful information. If any option in the dropdown lists fits a particular data source, it is possible to increase the options, but this should be done only after checking that there is no other preexistent suitable (or near suitable) tag.
+We shared a [Google sheets](https://docs.google.com/spreadsheets/d/1ERMeyCK1gKepeToE2TkwSuv_xYyQbggwaCYIIp3k-Y0/edit?gid=0#gid=0) document where we need to add every source of data and its relevant or helpful information. If no option in the dropdown lists fits a particular data source, it is possible to increase the options, but this should be done only after checking that there is no other preexistent suitable (or near suitable) tag.
 
 In DATE_OF_IDENTIFICATION it must be used the DD/MM/YYYY format.
 
