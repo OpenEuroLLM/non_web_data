@@ -1,11 +1,12 @@
 # non_web_data
+
 In this repository we will add the scripts and other indications used for the file extraction of non web data for the OELLM project.
 
 Our task of gathering linguistic data consists of several steps:
 
-`Locate source of data – Extract file URLs and create the metadata in Json format – Download files – Upload to the server`
+`Locate data sources – Extract file URLs and create the metadata in Json format – Download files – Upload to the server`
 
-<h2>1. Locate source of data</h2>
+<h2>1. Locate data sources</h2>
 
 <h3>1.1 Basic information</h3>
 
@@ -20,9 +21,9 @@ The languages of interest are:
 | Dutch    | Estonian  | Finnish    | Galician   |
 | Georgian | Greek     | Hungarian  | Icelandic  |
 | Irish    | Latvian   | Lithuanian | Macedonian |
-| Maltese  | Norwegian | Polish     | Romanian   |
+| Maltese  | Norwegian Nynorsk and Bokmal | Polish     | Romanian   |
 | Serbian  | Slovak    | Slovenian  | Swedish    |
-| Turkish  | Ukrainian | Galician?  |            |
+| Turkish  | Ukrainian |       |            |
 
 We think that every person/group should work with only one different language at a time to avoid duplications.
 
