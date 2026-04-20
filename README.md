@@ -11,10 +11,11 @@ Our task of gathering linguistic data consists of several steps:
 
 <h2>1. Locate data sources</h2>
 
-<h3>1.1 Basic information</h3>
+<h3>1.0 Basic information</h3>
 
 The first step is to search websites containing files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web navigators. This undesired data is supposed to be already gathered by other projects.
 
+<h3>1.1 Pick a language</h3>
 The languages of interest are:
 
 |    |    |    |    |
