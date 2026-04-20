@@ -4,7 +4,10 @@ In this repository we will add the scripts and other indications used for the fi
 
 Our task of gathering linguistic data consists of several steps:
 
-`Locate data sources – Extract file URLs and create the metadata in Json format – Download files – Upload to the server`
+1) Locate data sources
+2) Extract file URLs and create the metadata in Json format
+3) Download files
+4) Upload to the server`
 
 <h2>1. Locate data sources</h2>
 
@@ -26,6 +29,10 @@ The languages of interest are:
 | Turkish  | Ukrainian |       |            |
 
 We think that every person/group should work with only one different language at a time to avoid duplications.
+
+Languages with less resources sould be prioritized. A guide to the priority list could be the following ranking showing the biggest web dataset available for the above languages: 
+
+![image](images/oellm-languages-web-dataset.png)
 
 <h3>1.2 Add a row to the shared Google sheets</h3>
 
