@@ -14,7 +14,7 @@ The first step is to search websites containing files with relevant linguistic d
 
 The languages of interest are:
 
-
+|  |  |  |
 | -------- | --------- | ---------- | ---------- |
 | Albanian | Basque    | Bosnian    | Bulgarian  |
 | Catalan  | Croatian  | Czech      | Danish     |
