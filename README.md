@@ -26,10 +26,10 @@ Languages with less resources sould be prioritized. A guide to build the priorit
 
 ![image](images/oellm-languages-web-dataset.png)
 
-From less to higher-resourced langauges, we can order the list of priority languages as follows: 
+The following table reflects the priority languages, data availability and team in charge of non-web-data for that language for a particular cycle: 
 
 
-|Language|Data availability| Team in charge|
+|Language|Data availability| Team in charge (1st cycle)|
 |--------|--------------|------------------|
 |Albanian|low| | 
 |Basque|very low| Prompsit |
@@ -63,9 +63,9 @@ From less to higher-resourced langauges, we can order the list of priority langu
 |Turkish|low|  |
 |Ukrainian|mid-low|  |
 
-The tiers correspond to: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
+The tiers correspond to the following tokens availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
-To avoid duplicates, we will record who is taking care of each language in the above table. 
+To avoid duplicate efforts, we will record which team is taking care of each language in the above table for every source collection cycle. 
 
 
 
