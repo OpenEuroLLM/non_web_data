@@ -4,10 +4,12 @@ In this repository we will add the scripts and other indications used for the fi
 
 Our task of gathering linguistic data consists of several steps:
 
-1) Locate data sources
-2) Extract file URLs and create the metadata in Json format
-3) Download files
-4) Upload to the server`
+1) Locating data sources
+2) Extracting file URLs
+3) Downloading the files
+4) Uploading the files to a server
+5) Downloading the files to a cluster
+6) Processing the files to extract text
 
 <h2>1. Locating data sources</h2>
 
@@ -47,7 +49,7 @@ There are also columns without predefined options that need a specific format:
 
 - In MIXED_LANGUAGES, the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
 
-<h3>1.3.	Tips on how to find relevant data (Basque)</h3>
+<h3>1.3.    Tips on how to find relevant data </h3>
 
 First, it is recommended to search for government or regional official websites, institutions, ministries or publicly funded associations, looking for sections named “publications” or similar. These public websites used to cite other websites they fund or with which they collaborate. 
 
@@ -58,7 +60,7 @@ After that, is may be worth searching for annual reports of banks, big companies
 Besides this, the [CC](https://search.creativecommons.org/) search portal may be good to find other types of permissively licensed data. A good idea is to use random words from different topics plus the required format in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Looking for radios, televisions or podcasts in this CC searcher is also a good idea to find archived recorded programs.
 
 <h2>2.	Extracting file URLs</h2>
-<h3>2.1.	Basic information</h3>
+<h3>2.0.	Basic information</h3>
 
 After gathering data sources, it is needed to extract all URLs where every single file is placed.
 
@@ -99,7 +101,7 @@ The rest of the metadata is derived from the corresponding rows of the Google sh
 
 ![image](images/imagen1.png)
 
-<h3>2.2.	Extracting the final URLs</h3>
+<h3>2.1.	Extracting the final URLs</h3>
 
 Generally, in the data sources found, there are a few types of data structures:
 
@@ -164,5 +166,15 @@ In similar cases, scraping the whole page and saving the intermediate links in a
 ![image](images/Imagen11.png)
 
 Then, one can visit them to extract the links behind the "PDF" button. Be careful and avoid visiting them all at the same time, because you can overload the server and be banned.
+
+<h2>3.	Downloading the files</h2>
+
+TBC
+
+<h2>4.	Uploading the files to the server</h2>
+
+TBC
+
+<h2>5. Processing the files</h2>
 
 
