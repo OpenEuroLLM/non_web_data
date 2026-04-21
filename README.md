@@ -20,24 +20,24 @@ This guide will be growing as we complete all the steps.
 The first step is to search websites containing files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web navigators. This undesired data is supposed to be already gathered by other projects.
 
 <h3>1.1 Picking a language</h3>
-The languages of interest are:
+The languages of interest are defined in the following [file]():
 
-|    |    |    |    |
-| -------- | --------- | ---------- | ---------- |
-| Albanian | Basque    | Bosnian    | Bulgarian  |
-| Catalan  | Croatian  | Czech      | Danish     |
-| Dutch    | Estonian  | Finnish    | Galician   |
-| Georgian | Greek     | Hungarian  | Icelandic  |
-| Irish    | Latvian   | Lithuanian | Macedonian |
-| Maltese  | Norwegian Nynorsk and Bokmal | Polish     | Romanian   |
-| Serbian  | Slovak    | Slovenian  | Swedish    |
-| Turkish  | Ukrainian |       |            |
-
-We think that every person/group should work with only one different language at a time to avoid duplications.
-
-Languages with less resources sould be prioritized. A guide to the priority list could be the following ranking showing the biggest web dataset available for the above languages: 
+Languages with less resources sould be prioritized. A guide to build the priority list could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German,  Portuguese and Spanish: 
 
 ![image](images/oellm-languages-web-dataset.png)
+
+From less to higher-resourced langauges, we can order the list of priority languages as follows: 
+
+
+|Language|Team in charge|
+|--------|--------------|
+|        |              |
+
+
+
+To avoid duplicates, we will record who is taking care of each language in the above table. 
+
+
 
 <h3>1.2 Recording resources in the shared Google sheets</h3>
 
