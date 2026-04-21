@@ -29,11 +29,41 @@ Languages with less resources sould be prioritized. A guide to build the priorit
 From less to higher-resourced langauges, we can order the list of priority languages as follows: 
 
 
-|Language|Team in charge|
-|--------|--------------|
-|        |              |
+|Language|Data availability| Team in charge|
+|--------|--------------|------------------|
+|Albanian|low| | 
+|Basque|very low| Prompsit |
+|Bosnian|low|  |
+|Bulgarian|mid-low|  |
+|Catalan|low|  |
+|Croatian|low|  |
+|Czech|mid|  |
+|Danish|mid-low|  |
+|Dutch|mid|  |
+|Estonian|low|  |
+|Finnish|mid-low|  |
+|Galician|very low|  |
+|Georgian|very-low|  |
+|Greek|mid-low|  |
+|Hungarian|mid-low|  |
+|Icelandic|very-low|  |
+|Irish|very-low|  |
+|Latvian|low|  |
+|Lithuanian|low|  |
+|Macedonian|very low|  |
+|Maltese|very low|  |
+|Norwegian Nynorsk|very low|  |
+|Norwegian Bokmal|mid-low|  |
+|Polish|mid|  |
+|Romanian|mid-low| |
+|Serbian|low|  |
+|Slovak|mid-low|  |
+|Slovenian|low|  |
+|Swedish|mid-low|  |
+|Turkish|low|  |
+|Ukrainian|mid-low|  |
 
-
+The tiers correspond to: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
 To avoid duplicates, we will record who is taking care of each language in the above table. 
 
