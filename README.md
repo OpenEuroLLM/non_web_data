@@ -115,7 +115,7 @@ Then, one can use a simple [Python tool](notebooks/all_files_from_copied_selecti
 
 It is also possible to use a regex like `href="(.*?.pdf)"` or other tools but the former is a very quick option.
 
-If, on the other hand, if pagination is very long, one can scrap the box where the files of interest are placed and then extract automatically all file links. In these cases, the [Python tool](notebooks/all_files_in_box_with_pagination.ipynb) tool can be used. In this example the numbers of the "<a>" tags were used to extract all pagination links:
+If, on the other hand, if pagination is very long, one can scrap the box where the files of interest are placed and then extract automatically all file links. In these cases, the [Python tool](notebooks/all_files_in_box_with_pagination.ipynb) can be used. In this example the numbers of the "<a>" tags were used to extract all pagination links:
 
 ![image](images/Imagen4.png)
 ![image](images/Imagen5.png)
