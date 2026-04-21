@@ -1,26 +1,28 @@
-# non_web_data
+# OpenEuroLLM Non-Web-Data Guide
 
-In this repository we will add the scripts and other indications used for the file extraction of non web data for the OELLM project.
+This guide and repository compiles information and useful scripts about the acquisition of non-web-data for the OpenEuroLLM project.  
 
-Our task of gathering linguistic data consists of several steps:
+The task of gathering linguistic data different from web data content implies several steps such as:
 
-1) Locating data sources
+1) Locating permissively licensed data sources (mainly sets of files)
 2) Extracting file URLs
 3) Downloading the files
 4) Uploading the files to a server
 5) Downloading the files to a cluster
 6) Processing the files to extract text
 
-This guide will be growing as we complete all the steps. 
+This guide will be growing as we complete a first cycle through all the steps. 
 
 <h2>1. Locating data sources</h2>
 
 <h3>1.0 Basic information</h3>
 
-The first step is to search websites containing files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web navigators. This undesired data is supposed to be already gathered by other projects.
+The first step is to search websites containing sets of files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. 
+
+We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web browsers. The web content (HTML) is supposed to be already gathered in web datasets.
 
 <h3>1.1 Picking a language</h3>
-The languages of interest are defined in the following [file]():
+The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages):
 
 Languages with less resources sould be prioritized. A guide to build the priority list could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German,  Portuguese and Spanish: 
 
