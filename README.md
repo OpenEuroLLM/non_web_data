@@ -11,6 +11,8 @@ Our task of gathering linguistic data consists of several steps:
 5) Downloading the files to a cluster
 6) Processing the files to extract text
 
+This guide will be growing as we complete all the steps. 
+
 <h2>1. Locating data sources</h2>
 
 <h3>1.0 Basic information</h3>
