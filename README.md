@@ -9,13 +9,13 @@ Our task of gathering linguistic data consists of several steps:
 3) Download files
 4) Upload to the server`
 
-<h2>1. Locate data sources</h2>
+<h2>1. Locating data sources</h2>
 
 <h3>1.0 Basic information</h3>
 
 The first step is to search websites containing files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web navigators. This undesired data is supposed to be already gathered by other projects.
 
-<h3>1.1 Pick a language</h3>
+<h3>1.1 Picking a language</h3>
 The languages of interest are:
 
 |    |    |    |    |
@@ -35,29 +35,34 @@ Languages with less resources sould be prioritized. A guide to the priority list
 
 ![image](images/oellm-languages-web-dataset.png)
 
-<h3>1.2 Add a row to the shared Google sheets</h3>
+<h3>1.2 Recording resources in the shared Google sheets</h3>
 
-We shared a [Google sheets](https://docs.google.com/spreadsheets/d/1ERMeyCK1gKepeToE2TkwSuv_xYyQbggwaCYIIp3k-Y0/edit?gid=0#gid=0) document where we need to add every source of data and its relevant or helpful information. If no option in the dropdown lists fits a particular data source, it is possible to increase the options, but this should be done only after checking that there is no other preexistent suitable (or near suitable) tag.
+We share a [Google sheets](https://docs.google.com/spreadsheets/d/1ERMeyCK1gKepeToE2TkwSuv_xYyQbggwaCYIIp3k-Y0/edit?gid=0#gid=0) document where we need to add every data source and its relevant or helpful information. Some of the information has pre-defined dropdown lists. Increasing the options in these lists is possible, but only if there is no other preexistent suitable (or near suitable) option available.
 
-There are also columns without a dropdown list that need a specific format:
+There are also columns without predefined options that need a specific format:
 
 - In DATE_OF_IDENTIFICATION it must be used the DD/MM/YYYY format.
 
-- In the DOWNLOAD_SOURCE column, it is better to use the URLs where the data is placed, not only the home page. For example, I saved these URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia, instead of https://www.argia.eus/ . This will make the next step much easier. I used to save these multiple URLs separated by a line break in the same cell.
+- In the DOWNLOAD_SOURCE column, it is better to use the URLs where the actual data is linked instead of the home page. For example, we would save the following URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia instead of https://www.argia.eus/. This will make the next step much easier. Multiple URLs separated by a line break can be saved in the same cell.
 
-- In MIXED_LANGUAGES the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
+- In MIXED_LANGUAGES, the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
 
-<h3>1.3.	How I found relevant data in the Basque test</h3>
+<h3>1.3.	Tips on how to find relevant data (Basque)</h3>
 
-First, I searched government or regional official websites, institutions, ministries or publicly funded associations, looking for sections named “publications” or similar. These public websites used to cite other websites they fund or with which they collaborate. Then I looked for official state gazettes, civil/penal codes, constitutions and other public legal documents. After that, I searched annual reports of banks, big companies, NGOs, etc.
-Moreover, I used the [CC](https://search.creativecommons.org/) search portal to find data. I used random words from different topics plus the format I wanted in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Then I looked for radios, televisions or podcasts in this CC searcher, because they used to archive their recorded programs.
+First, it is recommended to search for government or regional official websites, institutions, ministries or publicly funded associations, looking for sections named “publications” or similar. These public websites used to cite other websites they fund or with which they collaborate. 
 
-<h2>2.	Extract file URLs</h2>
+Then, looking for official state gazettes, civil/penal codes, constitutions and other public legal documents can lead to good results. 
+
+After that, is may be worth searching for annual reports of banks, big companies, NGOs, etc.
+
+Besides this, the [CC](https://search.creativecommons.org/) search portal may be good to find other types of permissively licensed data. A good idea is to use random words from different topics plus the required format in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Looking for radios, televisions or podcasts in this CC searcher is also a good idea to find archived recorded programs.
+
+<h2>2.	Extracting file URLs</h2>
 <h3>2.1.	Basic information</h3>
 
 After gathering data sources, it is needed to extract all URLs where every single file is placed.
 
-The first step in this process is to identify the structure of the data on the website. Then, for each document, it is necessary to assemble the JSON metadata format as in this example:
+The first step in this process is to identify the structure of the data on the website. Then, for each document, it is necessary to assemble a JSON file with metadata as in this example:
 
 ```
 {
@@ -80,33 +85,37 @@ The first step in this process is to identify the structure of the data on the w
 }
 ```
 
-_PATH_ must be created as _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. In the OELLM database, files will be saved following the _PATH_ value. Regarding the ELDA team, metadata that it is supposed to be sent to the Prompsit team should be empty in the _PATH_ value. Prompsit team will fill this value using always the URL and the same logic present in [path.py](src/non_web_oellm/metadata/path.py).
+_PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. In the OELLM database, files will be saved following the _PATH_ value. Regarding the ELDA team, metadata that it is supposed to be sent to the Prompsit team should be empty in the _PATH_ value. Prompsit team will fill this value using always the URL and the same logic present in [path.py](src/non_web_oellm/metadata/path.py).
 
-_NAME_ corresponds to the file name with extension. The _NAME_ value and the file name must always be the same. This attribute will also be kept empty by the ELDA team and filled after the download by Prompsit, by far.
+
+ALTERNATIVE (REVIEW): 
+_PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. In the OELLM database, files will be saved following the _PATH_ value. Please do not fill this info as it will automatically computed using the DOWNLOAD_SOURCE and the [path.py](src/non_web_oellm/metadata/path.py) script.
+
+_NAME_ corresponds to the file name with extension. The _NAME_ value and the file name must always be the same. This attribute will also be kept empty and filled after the download.
 
 _DOWNLOAD_SOURCE_ is used to store the complete and final URL of the file. This must be a direct access or direct download link. If there is any relevant issue for the download step, this can be explained in the _COMMENTARY_ section. In the download step, if the file contains multiple files inside, like in a ZIP or RAR, the _DOWNLOAD_SOURCE_ value must be the URL of the compressed file. The file must be uncompressed, and every document inside must have its own JSON metadata.
 
-The rest of the metadata should derive from the corresponding row of the Google sheets document.
+The rest of the metadata is derived from the corresponding rows of the Google sheet document.
 
 ![image](images/imagen1.png)
 
-<h3>2.2.	How I extracted the final URLs</h3>
+<h3>2.2.	Extracting the final URLs</h3>
 
-Generally, in the data I found, there are a few types of data structures:
+Generally, in the data sources found, there are a few types of data structures:
 
 <h4>2.2.1 All the desired links are easily collectable from a single webpage</h4>
 
-In this cases, if there is not a long pagination, I used to only inspect the page manually and copy the element that contains the links:
+In this cases, if pagination is not very long, links can be collected by inspecting the page manually and copying the element that contains them:
 
 ![image](images/Imagen2.png)
 
-Then I used a simple [Python tool](notebooks/all_files_from_copied_selection.ipynb) to extract URLs:
+Then, one can use a simple [Python tool](notebooks/all_files_from_copied_selection.ipynb) to extract URLs:
 
 ![image](images/Imagen3.png)
 
-It is also possible to use a regex like `href="(.*?.pdf)"` or other tools, but for me this is the quicker option.
+It is also possible to use a regex like `href="(.*?.pdf)"` or other tools but the former is a very quick option.
 
-If, on the other hand, a long pagination is found, I used to scrap the box where the files of interest are placed and then extract automatically all file links. I used a different [Python tool](notebooks/all_files_in_box_with_pagination.ipynb). In this example case I used the numbers of the "<a>" tags to extract all pagination links:
+If, on the other hand, if pagination is very long, one can scrap the box where the files of interest are placed and then extract automatically all file links. In these cases, the [Python tool](notebooks/all_files_in_box_with_pagination.ipynb) tool can be used. In this example the numbers of the "<a>" tags were used to extract all pagination links:
 
 ![image](images/Imagen4.png)
 ![image](images/Imagen5.png)
@@ -115,21 +124,21 @@ There are multiple options even in this page. It is possible to explore URLs usi
 
 - https://www.or[...]ault.aspx?page=1
 
-In these cases you need to ensure that the number of pages is consistent, otherwise, if you try to access to some wrong URLs, it is possible that the server blocks your IP.
+In these cases you need to make sure that the number of pages is consistent, otherwise, if you try to access to some wrong URLs, it is possible that the server blocks your IP.
 
-Another usefull way to visit all the needed pages is to extract always the ">" button, until it is not present. This would need some changes in the [script](notebooks/all_files_in_box_with_pagination.ipynb) mencioned before.
+Another usefull way to visit all the needed pages is to extract always the ">" button, until it is not present. This would need some changes in the [script](notebooks/all_files_in_box_with_pagination.ipynb).
 
-<h4>2.2.2 An Ad Hoc crawler/method is needed</h4>
+<h4>2.2.2 An ad hoc crawler/method is needed</h4>
 
-Often it is impossible to only copy and extract links. Some websites need to be analyzed before choosing a valid method. In this part, I only can give you some different examples and how I resolved the problems I encountered:
+Often, it is impossible to only copy and extract links. Some websites need to be analyzed before choosing a valid method. In this case, the different examples below show how to solve different problems already found:
 
 - ARGIA
 
-First, acceded to each podcast manually:
+First, access each podcast manually:
 
 ![image](images/Imagen6.png)
 
-After that, I copied the HTML element where each chapter of the podcast is placed. In this moment, I saw that not all chapters where in the HTML. Chapters actually appear (are generated) when you scroll down the page, so I decided to scroll to the end every page and then I copied the HTML element.
+After that, copy the HTML element where each chapter of the podcast is placed. In this moment, I saw that not all chapters where in the HTML. Chapters actually appear (are generated) when you scroll down the page, so I decided to scroll to the end every page and then I copied the HTML element.
 
 ![image](images/Imagen7.png)
 
