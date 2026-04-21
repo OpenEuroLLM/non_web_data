@@ -130,19 +130,17 @@ Another usefull way to visit all the needed pages is to extract always the ">" b
 
 <h4>2.2.2 An ad hoc crawler/method is needed</h4>
 
-Often, it is impossible to only copy and extract links. Some websites need to be analyzed before choosing a valid method. In this case, the different examples below show how to solve different problems already found:
+Often, it is impossible to only copy and extract links. Some websites need to be analyzed before choosing a valid method. The different examples below show different problems already found and possible approaches to solve them:
 
-- ARGIA
-
-First, access each podcast manually:
+- ARGIA: This news site has an interesting podcast section at https://www.argia.eus/.
 
 ![image](images/Imagen6.png)
 
-After that, copy the HTML element where each chapter of the podcast is placed. In this moment, I saw that not all chapters where in the HTML. Chapters actually appear (are generated) when you scroll down the page, so I decided to scroll to the end every page and then I copied the HTML element.
+First, access each podcast manually, e.g. https://www.argia.eus/multimedia/menda-bikoitza. Take a moment to explore a bit each podcast topic/domain to refine the info in the shared Google Sheets. 
 
 ![image](images/Imagen7.png)
 
-In this step I took the oportunity to explore a bit each podcast to better fit the topic/domain of each podcast, rather than use the generic one I added to the Google Sheets ("Culture").
+Then, copy the HTML element where each chapter of the podcast is placed. Make sure that all podcasts are visible (e.g. scroll down the page to make the appear) before copying the HTML element.
 
 - Gipuzkoa Official Gazette
 
@@ -150,19 +148,21 @@ The Gipuzkoa Gazette is intended to be explored by date or by keyword:
 
 ![image](images/Imagen8.png)
 
-The easiest way I found to extract all links were to search by year. The first year I found was 1996 and I saw that the URLs saved this information in the GET attribute in the URL (`_BoletinOficial_WAR_LEEboletinOficialportlet_anio=1996`):
+In this case, searching by year was the most sucessful strategy to get all the records. The year, e.g. 1996, was part of the URL in the GET attribute (`_BoletinOficial_WAR_LEEboletinOficialportlet_anio=1996`):
 
 - `https://egoitza.gipuzkoa.eus/eu/gao?p_p_id=BoletinOficial_WAR_LEEboletinOficialportlet&p_p_lifecycle=0&_BoletinOficial_WAR_LEEboletinOficialportlet_d-4021526-p=1&_BoletinOficial_WAR_LEEboletinOficialportlet_myaction=busqueda&_BoletinOficial_WAR_LEEboletinOficialportlet_isAvanzada=false&_BoletinOficial_WAR_LEEboletinOficialportlet_anio=1996`
 
 
 ![image](images/Imagen9.png)
 
-Each year could be processed as a regular page with pagination. It is necessay, however, to do a two step page visit, becasuse the direct link is inside the first one.
+Each year could be processed as a regular page with pagination. In this case, however, it is necessay to do a two step page visit, becasuse the direct link of the final is inside the first one.
 
 ![image](images/Imagen10.png)
 
-When I need to work with a two or three steps link I like to scrap all the page, save the intermediate links in a file and then, at another time, extract the next step. For example, I saved all the links to the resources in a txt:
+In similar cases, scraping the whole page and saving the intermediate links in a file can be useful to then, extract the final links in a subsequent step. For example, saving all the links in the above mentioned page in a txt results in:
 
 ![image](images/Imagen11.png)
 
-Then I visited all of them to extract the link behind the "PDF" button. I do not like to make all in the same time, because you can overload the server and it is more likely to be banned.
+Then, one can visit them to extract the links behind the "PDF" button. Be careful and avoid visiting them all at the same time, because you can overload the server and be banned.
+
+
