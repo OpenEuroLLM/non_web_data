@@ -43,7 +43,7 @@ There are also columns without predefined options that need a specific format:
 
 - In DATE_OF_IDENTIFICATION it must be used the DD/MM/YYYY format.
 
-- In the DOWNLOAD_SOURCE column, it is better to use the URLs where the actual data is linked instead of the home page. For example, we would save the following URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia instead of https://www.argia.eus/. This will make the next step much easier. Multiple URLs separated by a line break can be saved in the same cell.
+- In the DOWNLOAD_SOURCE column, it is better to use the URLs where the actual data is linked instead of the home page. For example, we would save the following URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia instead of just https://www.argia.eus/. This will make the next step much easier. Multiple URLs separated by a line break can be saved in the same cell.
 
 - In MIXED_LANGUAGES, the languages must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
 
