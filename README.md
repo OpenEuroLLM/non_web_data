@@ -121,7 +121,7 @@ The first step in this process is to identify the structure of the data on the w
 }
 ```
 
-_PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. In the OELLM database, files will be saved following the _PATH_ value. Regarding the ELDA team, metadata that it is supposed to be sent to the Prompsit team should be empty in the _PATH_ value. Prompsit team will fill this value using always the URL and the same logic present in [path.py](src/non_web_oellm/metadata/path.py).
+_PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. To create the path the [path.py](src/non_web_oellm/metadata/path.py) script must be used. The "url" parameter correspond to the final URL where the file is downloaded, "base_path" should be the base path in the computer used to download the file + the language code.
 
 
 ALTERNATIVE (REVIEW): 
