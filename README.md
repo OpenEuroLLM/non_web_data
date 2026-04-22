@@ -205,6 +205,8 @@ TBC
 
 TBC
 
-<h2>5. Processing the files</h2>
+<h2>5. Downloading the files to a cluster</h2>
+TBC
+<h2>6. Processing the files</h2>
 
-
+TBC
