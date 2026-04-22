@@ -22,13 +22,13 @@ We are looking for websites containing sets of files with relevant linguistic da
 We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web browsers. The web content (HTML) is supposed to be already gathered in web datasets.
 
 <h3>1.1 Picking a language</h3>
-We will look for sources in particular languages. The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages):
+We will look for sources in particular languages. The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages).
 
-Languages with less resources sould be prioritized. A guide to build the priority list could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German,  Portuguese and Spanish: 
+Languages with less resources sould be prioritized. A hint for picking your next language could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German, Portuguese and Spanish: 
 
 ![image](images/oellm-languages-web-dataset.png)
 
-The following table reflects the priority languages, data availability and team in charge of non-web-data for that language for a particular cycle: 
+Please log your team name in the following table once you start working with a particular language. These are all the priority languages with some information of data availability and the team in charge for a particular cycle: 
 
 
 |Language|Data availability| Team in charge (1st cycle)|
