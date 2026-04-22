@@ -123,10 +123,6 @@ The first step in this process is to identify the structure of the data on the w
 
 _PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. To create the path the [path.py](src/non_web_oellm/metadata/path.py) script must be used. The "url" parameter correspond to the final URL where the file is downloaded, "base_path" should be the base path in the computer used to download the file + the language code.
 
-
-ALTERNATIVE (REVIEW): 
-_PATH_ is a combintation of _LANGUAGE_CODE_ + url without the document name. The intention is to mirror the original location of the documents. In the OELLM database, files will be saved following the _PATH_ value. Please do not fill this info as it will automatically computed using the DOWNLOAD_SOURCE and the [path.py](src/non_web_oellm/metadata/path.py) script.
-
 _NAME_ corresponds to the file name with extension. The _NAME_ value and the file name must always be the same. This attribute will also be kept empty and filled after the download.
 
 _DOWNLOAD_SOURCE_ is used to store the complete and final URL of the file. This must be a direct access or direct download link. If there is any relevant issue for the download step, this can be explained in the _COMMENTARY_ section. In the download step, if the file contains multiple files inside, like in a ZIP or RAR, the _DOWNLOAD_SOURCE_ value must be the URL of the compressed file. The file must be uncompressed, and every document inside must have its own JSON metadata.
