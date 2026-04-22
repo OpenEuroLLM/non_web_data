@@ -67,7 +67,6 @@ Please log your team name in the following table once you pick a language and st
 
 The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
-To avoid duplicate efforts, we will record which team is taking care of each language in the above table for every source collection cycle. 
 
 
 
