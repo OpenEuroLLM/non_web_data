@@ -65,7 +65,7 @@ The following table reflects the priority languages, data availability and team 
 |Turkish|low|  |
 |Ukrainian|mid-low|  |
 
-The tiers correspond to the following tokens availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
+The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
 To avoid duplicate efforts, we will record which team is taking care of each language in the above table for every source collection cycle. 
 
