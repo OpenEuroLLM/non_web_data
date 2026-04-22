@@ -17,12 +17,12 @@ This guide will be growing as we complete a first cycle through all the steps.
 
 <h3>1.0 Basic information</h3>
 
-The first step is to search websites containing sets of files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. 
+We are looking for websites containing sets of files with relevant linguistic data in any format (pdf, docx, txt, mp3, mp4, etc.) with an explicit open license. 
 
 We do not want the text present on the web page itself, like HTML or similar, but downloadable documents whose text is not visible using web browsers. The web content (HTML) is supposed to be already gathered in web datasets.
 
 <h3>1.1 Picking a language</h3>
-The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages):
+We will look for sources in particular languages. The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages):
 
 Languages with less resources sould be prioritized. A guide to build the priority list could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German,  Portuguese and Spanish: 
 
