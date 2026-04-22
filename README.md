@@ -28,7 +28,7 @@ Languages with less resources sould be prioritized. A hint for picking your next
 
 ![image](images/oellm-languages-web-dataset.png)
 
-Please log your team name in the following table once you start working with a particular language. These are all the priority languages with some information of data availability and the team in charge for a particular cycle: 
+Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular cycle: 
 
 
 |Language|Data availability| Team in charge (1st cycle)|
