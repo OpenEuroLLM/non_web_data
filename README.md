@@ -172,7 +172,7 @@ Lastly, the validation and download process will create automatically more data 
 
 The rest of the metadata is derived from the corresponding rows of the Google sheet document.
 
-![image](images/imagen1.png)
+![image](images/Imagen1.png)
 
 To extract the data from the Google sheets document the codes in [this notebook](notebooks/get_data_from_Google_sheets.ipynb) can be used or simply copy-paste from the row of interest.
 
