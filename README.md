@@ -49,8 +49,8 @@ Please log your team name in the following table once you pick a language and st
 |Georgian|very-low|  |
 |Greek|mid-low|  |
 |Hungarian|mid-low|  |
-|Icelandic|very-low|  |
-|Irish|very-low|  |
+|Icelandic|very-low| ELDA |
+|Irish|very-low| ELDA |
 |Latvian|low|  |
 |Lithuanian|low|  |
 |Macedonian|very low|  |
