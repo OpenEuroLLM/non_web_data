@@ -202,7 +202,7 @@ TBC
 
 
 
-<h2>7. Recommendations and examples</h2>
+<h2>7. Recommendations and examples by Prompsit</h2>
 
 <h3>7.1.    Tips on how to find relevant data </h3>
 
@@ -214,7 +214,7 @@ After that, is may be worth searching for annual reports of banks, big companies
 
 Besides this, the [CC](https://search.creativecommons.org/) search portal may be good to find other types of permissively licensed data. A good idea is to use random words from different topics plus the required format in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Looking for radios, televisions or podcasts in this CC searcher is also a good idea to find archived recorded programs.
 
-<h3>7.2.    Tips on how to extract final URLS by Prompsit</h3>
+<h3>7.2.    Tips on how to extract final URLS</h3>
 
 Generally, in the data sources found, there are a few types of data structures:
 
@@ -280,4 +280,4 @@ In similar cases, scraping the whole page and saving the intermediate links in a
 
 Then, one can visit them to extract the links behind the "PDF" button. Be careful and avoid visiting them all at the same time, because you can overload the server and be banned.
 
-<h3>8.1.    Tips on how to extract final URLS by ELDA</h3>
+<h2>8. Recommendations and examples by ELDA</h2>
