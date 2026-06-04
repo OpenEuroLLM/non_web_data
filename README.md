@@ -110,19 +110,19 @@ Columns in red will be used as part of the metadata for each file uploaded to th
 
 <h4>1.3.2 Non metadata columns</h4>
 
-- **Uploaded to the database**: only mark "yes" if all the files in the URL are properly validated and uploaded to the database.
+- **uploaded to the database**: only mark "yes" if all the files in the URL are properly validated and uploaded to the database.
 
-- **Size (Token, Docs, GB)**: it can be used to indicate the aproximately size of the desired documents. It might be helpful to know that all the documents have been extracted in the second step.
+- **size (Token, Docs, GB)**: it can be used to indicate the aproximately size of the desired documents. It might be helpful to know that all the documents have been extracted in the second step.
 
 - **relevant urls**: here it is useful to add the URLs of the sections where the actual data is linked. For example, we would save the following URLs in this website: https://www.argia.eus/multimedia/podcastak and https://www.argia.eus/multimedia/videos instead of just https://www.argia.eus/. This will make the next step much easier. Multiple URLs separated by a line break can be saved in the same cell.
 
-- **Worth gathering?**: it is a three-level score used to summarize all the information observed or identified during the assessment, scraping, or usability issues. Files with poor linguistic quality or that are very difficult to extract may not be a priority if they slow down the process. This can be represented by this score.
+- **worth gathering?**: it is a three-level score used to summarize all the information observed or identified during the assessment, scraping, or usability issues. Files with poor linguistic quality or that are very difficult to extract may not be a priority if they slow down the process. This can be represented by this score.
 
-- **Presence of anti-robot**: mark it if the presence of anti-robots is observed, like Google recaptcha or Cloudflare bot management.
+- **presence of anti-robot**: mark it if the presence of anti-robots is observed, like Google recaptcha or Cloudflare bot management.
 
-- **in OpenEuroLLM Catalogue?**: present or not.
+- **in OpenEuroLLM catalogue?**: present or not.
 
-- **dentified by**: use always the same name, with your organization in parentheses.
+- **identified by**: use always the same name, with your organization in parentheses.
 
 - **legal comments**: free text to explain possible legal issues.
 
@@ -214,7 +214,7 @@ After that, is may be worth searching for annual reports of banks, big companies
 
 Besides this, the [CC](https://search.creativecommons.org/) search portal may be good to find other types of permissively licensed data. A good idea is to use random words from different topics plus the required format in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Looking for radios, televisions or podcasts in this CC searcher is also a good idea to find archived recorded programs.
 
-<h3>7.2.    Tips on how to extract final URLS</h3>
+<h3>7.2.    Tips on how to extract final URLS by Prompsit</h3>
 
 Generally, in the data sources found, there are a few types of data structures:
 
@@ -279,3 +279,5 @@ In similar cases, scraping the whole page and saving the intermediate links in a
 ![image](images/Imagen11.png)
 
 Then, one can visit them to extract the links behind the "PDF" button. Be careful and avoid visiting them all at the same time, because you can overload the server and be banned.
+
+<h3>8.1.    Tips on how to extract final URLS by ELDA</h3>
