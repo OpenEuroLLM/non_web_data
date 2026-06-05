@@ -32,44 +32,44 @@ Languages with less resources sould be prioritized. A hint for picking your next
 Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular cycle: 
 
 
-|Language|Data availability| Team in charge (1st cycle)|
+|Language|Data availability| Team in charge (Cycle 0)| Team in charge (Cycle 1)
 |--------|--------------|------------------|
-|Albanian|low| | 
-|Basque|very low| Prompsit |
-|Bosnian|low|  |
-|Bulgarian|mid-low|  |
-|Catalan|low|  |
-|Croatian|low|  |
-|Czech|mid|  |
-|Danish|mid-low|  |
-|Dutch|mid|  |
-|Estonian|low|  |
-|Finnish|mid-low|  |
-|Galician|very low|  |
-|Georgian|very-low|  |
-|Greek|mid-low|  |
-|Hungarian|mid-low|  |
-|Icelandic|very-low|  |
-|Irish|very-low|  |
-|Latvian|low|  |
-|Lithuanian|low|  |
-|Macedonian|very low|  |
-|Maltese|very low|  |
-|Norwegian Nynorsk|very low|  |
-|Norwegian Bokmal|mid-low|  |
-|Polish|mid|  |
-|Romanian|mid-low| |
-|Serbian|low|  |
-|Slovak|mid-low|  |
-|Slovenian|low|  |
-|Swedish|mid-low|  |
-|Turkish|low|  |
-|Ukrainian|mid-low|  |
+|Albanian|low|ELDA | | 
+|Basque|very low| ELDA | Prompsit | 
+|Bosnian|low| ELDA | | 
+|Bulgarian|mid-low| ELDA | | 
+|Catalan|low| ELDA | | 
+|Croatian|low| ELDA | | 
+|Czech|mid| ELDA | | 
+|Danish|mid-low| ELDA | | 
+|Dutch|mid| ELDA | | 
+|Estonian|low| ELDA | | 
+|Finnish|mid-low| ELDA | | 
+|Galician|very low| ELDA | | 
+|Georgian|very-low| ELDA | | 
+|Greek|mid-low| ELDA | | 
+|Hungarian|mid-low| ELDA | | 
+|Icelandic|very-low| ELDA | | 
+|Irish|very-low| ELDA | | 
+|Latvian|low| ELDA | | 
+|Lithuanian|low| ELDA | | 
+|Macedonian|very low| ELDA | | 
+|Maltese|very low| ELDA | | 
+|Norwegian Nynorsk|very low| ELDA | | 
+|Norwegian Bokmal|mid-low| ELDA | | 
+|Polish|mid| ELDA | | 
+|Romanian|mid-low|ELDA | | 
+|Serbian|low| ELDA | | 
+|Slovak|mid-low| ELDA | | 
+|Slovenian|low| ELDA | | 
+|Swedish|mid-low| ELDA | | 
+|Turkish|low| ELDA | | 
+|Ukrainian|mid-low| ELDA | | 
 
 The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
-
-
+Identification cycle 0 (completed).
+Identification cycle 1 (started). 
 
 <h3>1.3 Recording resources in the shared Google sheets</h3>
 
