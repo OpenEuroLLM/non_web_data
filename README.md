@@ -32,7 +32,7 @@ Languages with less resources sould be prioritized. A hint for picking your next
 Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular cycle: 
 
 
-|Language|Data availability| Team in charge (Cycle 0)| Team in charge (Cycle 1)
+|Language|Data availability| Cycle 0 - Completed | Cycle 1 - Ongoing|
 |--------|--------------|------------------|------------------|
 |Albanian|low|ELDA | | 
 |Basque|very low| ELDA | Prompsit | 
