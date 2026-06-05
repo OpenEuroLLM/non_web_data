@@ -33,7 +33,7 @@ Please log your team name in the following table once you pick a language and st
 
 
 |Language|Data availability| Team in charge (Cycle 0)| Team in charge (Cycle 1)
-|--------|--------------|------------------|
+|--------|--------------|------------------||------------------|
 |Albanian|low|ELDA | | 
 |Basque|very low| ELDA | Prompsit | 
 |Bosnian|low| ELDA | | 
