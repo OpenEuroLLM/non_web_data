@@ -68,8 +68,8 @@ Please log your team name in the following table once you pick a language and st
 
 The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
-Identification cycle 0 (completed).
-Identification cycle 1 (started). 
+Cycle 0 (completed): broad identification and recording of new sources for all languages. 
+Cycle 1 (started): by language, including identification, recording, download and storage. 
 
 <h3>1.3 Recording resources in the shared Google sheets</h3>
 
