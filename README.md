@@ -34,8 +34,8 @@ Please log your team name in the following table once you pick a language and st
 
 |Language|Data availability| Cycle 0 - Completed | Cycle 1 - Ongoing|
 |--------|--------------|------------------|------------------|
-|Albanian|low|ELDA | | 
-|Basque|very low| ELDA | Prompsit | 
+|Albanian|low|ELDA & Prompsit | | 
+|Basque|very low| ELDA & Prompsit | Prompsit | 
 |Bosnian|low| ELDA | | 
 |Bulgarian|mid-low| ELDA | | 
 |Catalan|low| ELDA | | 
@@ -69,6 +69,7 @@ Please log your team name in the following table once you pick a language and st
 The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
 Cycle 0 (completed): broad identification and recording of new sources for all languages. 
+
 Cycle 1 (started): by language, including identification, recording, download and storage. 
 
 <h3>1.3 Recording resources in the shared Google sheets</h3>
