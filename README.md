@@ -45,7 +45,7 @@ Please log your team name in the following table once you pick a language and st
 |Dutch|mid| ELDA | | 
 |Estonian|low| ELDA | | 
 |Finnish|mid-low| ELDA | | 
-|Galician|very low| ELDA | | 
+|Galician|very low| ELDA | Prompsit | 
 |Georgian|very low| ELDA | | 
 |Greek|mid-low| ELDA | | 
 |Hungarian|mid-low| ELDA | | 
