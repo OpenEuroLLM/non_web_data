@@ -5,8 +5,8 @@ import validators
 from datetime import datetime
 
 TOPICS = ["Politics", "Economics", "Law", "Science", "Technology", "Medicine", "Education", "Culture", "Journalism", "Society", "History", "Religion", "Philosophy", "Psychology", "Sports", "Entertainment", "Sociology", "Business", "Environment", "Other", "Unknown", "Public Administration"]
-DATA_TYPES = ["aac", "m4a", "ogg", "wav", "pdf", "rtf", "mp4", "mp3", "txt", "html", "docx", "xlsx", "csv", "json", "xml", "doc"]
-LICENSES = ["explicit open license", "CC-BY-SA-3.0", "GPL-2.0-only", "CC-BY-NC-SA-4.0", "AGPL-3.0-only", "GFDL-1.3", "LGPL-2.0-only", "CC-BY-NC-SA-3.0", "unspecified", "LGPL-2.0-or-later", "CC-BY-4.0", "CC-BY-SA-4.0", "Apache-2.0", "CC-BY-NC-ND-4.0", "BSD-2-Clause-FreeBSD", "LGPL-3.0-only", "GPL-3.0-or-later", "CC-BY-2.5", "CC-BY-3.0", "CC-BY-NC-ND-3.0", "CC-BY-NC-4.0", "GPL-3.0-only", "CC-BY-NC-SA-2.0", "LGPL-3.0-or-later", "CC-BY-NC-3.0", "AGPL-1.0-or-later", "CC0 1.0", "CC-BY-SA-2.0", "BSD-3-Clause", "BSD-4-Clause", "GPL", "GNU General Public License v3.0 (GPL-3.0)", "GPL v3", "GPL - 2.0"]
+DATA_TYPES = ["vtt", "aac", "m4a", "ogg", "wav", "pdf", "rtf", "mp4", "mp3", "txt", "html", "docx", "xlsx", "csv", "json", "xml", "doc"]
+LICENSES = ["CC-BY-NC-SA-2.5-ES", "explicit open license", "CC-BY-SA-3.0", "GPL-2.0-only", "CC-BY-NC-SA-4.0", "AGPL-3.0-only", "GFDL-1.3", "LGPL-2.0-only", "CC-BY-NC-SA-3.0", "unspecified", "LGPL-2.0-or-later", "CC-BY-4.0", "CC-BY-SA-4.0", "Apache-2.0", "CC-BY-NC-ND-4.0", "BSD-2-Clause-FreeBSD", "LGPL-3.0-only", "GPL-3.0-or-later", "CC-BY-2.5", "CC-BY-3.0", "CC-BY-NC-ND-3.0", "CC-BY-NC-4.0", "GPL-3.0-only", "CC-BY-NC-SA-2.0", "LGPL-3.0-or-later", "CC-BY-NC-3.0", "AGPL-1.0-or-later", "CC0 1.0", "CC-BY-SA-2.0", "BSD-3-Clause", "BSD-4-Clause", "GPL", "GNU General Public License v3.0 (GPL-3.0)", "GPL v3", "GPL - 2.0"]
 
 class Validation():
     def __init__(self):
