@@ -34,37 +34,38 @@ Please log your team name in the following table once you pick a language and st
 
 |Language|Data availability| Cycle 0 - Completed | Cycle 1 - Ongoing|
 |--------|--------------|------------------|------------------|
-|Albanian|low|ELDA & Prompsit | | 
-|Basque|very low| ELDA & Prompsit | Prompsit | 
-|Bosnian|low| ELDA | | 
-|Bulgarian|mid-low| ELDA | | 
-|Catalan|low| ELDA | | 
-|Croatian|low| ELDA | | 
-|Czech|mid| ELDA | | 
-|Danish|mid-low| ELDA | | 
-|Dutch|mid| ELDA | | 
-|Estonian|low| ELDA | | 
-|Finnish|mid-low| ELDA | | 
-|Galician|very low| ELDA | Prompsit | 
-|Georgian|very low| ELDA | | 
-|Greek|mid-low| ELDA | | 
-|Hungarian|mid-low| ELDA | | 
-|Icelandic|very low| ELDA | ELDA | 
-|Irish|very low| ELDA | ELDA | 
-|Latvian|low| ELDA | | 
-|Lithuanian|low| ELDA | | 
-|Macedonian|very low| ELDA | | 
-|Maltese|very low| ELDA | | 
-|Norwegian Nynorsk|very low| ELDA | | 
-|Norwegian Bokmal|mid-low| ELDA | | 
-|Polish|mid| ELDA | | 
-|Romanian|mid-low|ELDA | | 
-|Serbian|low| ELDA | | 
-|Slovak|mid-low| ELDA | | 
-|Slovenian|low| ELDA | | 
-|Swedish|mid-low| ELDA | | 
-|Turkish|low| ELDA | | 
-|Ukrainian|mid-low| ELDA | | 
+| Basque | very low | ELDA & Prompsit | Prompsit |
+| Galician | very low | ELDA | Prompsit |
+| Georgian | very low | ELDA | Prompsit |
+| Icelandic | very low | ELDA | ELDA |
+| Irish | very low | ELDA | ELDA |
+| Macedonian | very low | ELDA | |
+| Maltese | very low | ELDA | |
+| Norwegian Nynorsk | very low | ELDA | |
+| Albanian | low | ELDA & Prompsit | |
+| Bosnian | low | ELDA | |
+| Catalan | low | ELDA | |
+| Croatian | low | ELDA | |
+| Estonian | low | ELDA | |
+| Latvian | low | ELDA | |
+| Lithuanian | low | ELDA | |
+| Serbian | low | ELDA | |
+| Slovenian | low | ELDA | |
+| Turkish | low | ELDA | |
+| Bulgarian | mid-low | ELDA | |
+| Danish | mid-low | ELDA | |
+| Finnish | mid-low | ELDA | |
+| Greek | mid-low | ELDA | |
+| Hungarian | mid-low | ELDA | |
+| Norwegian Bokmal | mid-low | ELDA | |
+| Romanian | mid-low | ELDA | |
+| Slovak | mid-low | ELDA | |
+| Swedish | mid-low | ELDA | |
+| Ukrainian | mid-low | ELDA | |
+| Czech | mid | ELDA | |
+| Dutch | mid | ELDA | |
+| Polish | mid | ELDA | |
+
 
 The tiers correspond to the following token availability ranges: very low (<10BT), low (>10-40BT), mid-low (>40-120BT), mid (>120BT).
 
