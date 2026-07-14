@@ -33,6 +33,11 @@ class Validation():
             "CONTACT": self.validate_free_text(metadata.get("CONTACT")),
             "SOURCE_IDENTIFICATION_URL": self.validate_url(metadata.get("SOURCE_IDENTIFICATION_URL"))
         }
+        
+        # Preserve NAME and PATH if they exist
+        if 'NAME' in metadata: validated_metadata['NAME'] = metadata['NAME']
+        if 'PATH' in metadata: validated_metadata['PATH'] = metadata['PATH']
+
         errors = [key for key, value in validated_metadata.items() if value is False]
         if errors:
             return "errors occured in the following fields: " + ", ".join(errors)
@@ -40,28 +45,31 @@ class Validation():
     
     def validate_language_codes(self, lang_code):
         try:
-            iso639.Language.from_part3(lang_code)
-            return lang_code
+            l = iso639.Lang(lang_code)
+            if l.pt3 == lang_code:
+                return lang_code
+            return False
         except:
             return False
     
     def create_macro_language(self, lang_code):
         try:
-            language = iso639.Language.from_part3(lang_code).macrolanguage
-            return language if language else lang_code
+            l = iso639.Lang(lang_code)
+            macro = l.macro()
+            return macro.pt3 if macro else lang_code
         except:
             return lang_code
         
     def validate_script(self, script_code):
         if not isinstance(script_code, str):
             return False
-        script =pycountry.scripts.get(alpha_4=script_code)
+        script = pycountry.scripts.get(alpha_4=script_code)
         return script_code.lower() if script is not None else False
     
     def create_language_name(self, lang_code):
         try:
-            language = iso639.Language.from_part3(lang_code)
-            return language.name
+            l = iso639.Lang(lang_code)
+            return l.name
         except:
             return "not found"
     
