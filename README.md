@@ -39,7 +39,7 @@ Please log your team name in the following table once you pick a language and st
 | Georgian (kat_Geor) | very low | ELDA | Prompsit |
 | Icelandic (isl_Latn) | very low | ELDA | ELDA |
 | Irish (gle_Latn) | very low | ELDA | ELDA |
-| Macedonian (mkd_Cyrl) | very low | ELDA | |
+| Macedonian (mkd_Cyrl) | very low | ELDA | ELDA |
 | Maltese (mlt_Latn) | very low | ELDA | |
 | Norwegian Nynorsk (nno_Latn) | very low | ELDA | |
 | Albanian (sqi_Latn als_Latn) | low | ELDA & Prompsit | |
