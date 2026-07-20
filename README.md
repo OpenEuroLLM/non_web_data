@@ -42,7 +42,7 @@ Please log your team name in the following table once you pick a language and st
 | Macedonian (mkd_Cyrl) | very low | ELDA | ELDA |
 | Maltese (mlt_Latn) | very low | ELDA | |
 | Norwegian Nynorsk (nno_Latn) | very low | ELDA | |
-| Albanian (sqi_Latn als_Latn) | low | ELDA & Prompsit | |
+| Albanian (sqi_Latn als_Latn) | low | ELDA & Prompsit | Prompsit |
 | Bosnian (bos_Latn) | low | ELDA | |
 | Catalan (cat_Latn) | low | ELDA | |
 | Croatian (hrv_Latn) | low | ELDA | |
