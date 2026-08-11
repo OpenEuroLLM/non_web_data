@@ -6,13 +6,15 @@ from datetime import datetime
 
 TOPICS = ["Agriculture", "Literature", "Linguistics", "Politics", "Economics", "Law", "Science", "Technology", "Medicine", "Education", "Culture", "Journalism", "Society", "History", "Religion", "Philosophy", "Psychology", "Sports", "Entertainment", "Sociology", "Business", "Environment", "Other", "Unknown", "Public Administration"]
 DATA_TYPES = ["tmx", "gz", "tar", "docx", "rar", "ppt", "pptx", "zip","vtt", "aac", "m4a", "ogg", "wav", "pdf", "rtf", "mp4", "mp3", "txt", "html", "docx", "xlsx", "csv", "json", "xml", "doc"]
-LICENSES = ["Public Domain Mark 1.0", "CC-BY-NC-SA-2.5-ES", "explicit open license", "CC-BY-SA-3.0", "GPL-2.0-only", "CC-BY-NC-SA-4.0", "AGPL-3.0-only", "GFDL-1.3", "LGPL-2.0-only", "CC-BY-NC-SA-3.0", "unspecified", "LGPL-2.0-or-later", "CC-BY-4.0", "CC-BY-SA-4.0", "Apache-2.0", "CC-BY-NC-ND-4.0", "BSD-2-Clause-FreeBSD", "LGPL-3.0-only", "GPL-3.0-or-later", "CC-BY-2.5", "CC-BY-3.0", "CC-BY-NC-ND-3.0", "CC-BY-NC-4.0", "GPL-3.0-only", "CC-BY-NC-SA-2.0", "LGPL-3.0-or-later", "CC-BY-NC-3.0", "AGPL-1.0-or-later", "CC0 1.0", "CC-BY-SA-2.0", "BSD-3-Clause", "BSD-4-Clause", "GPL", "GNU General Public License v3.0 (GPL-3.0)", "GPL v3", "GPL - 2.0"]
+LICENSES = ["CC-BY-NC-ND-2.5-ES", "Public Domain Mark 1.0", "CC-BY-NC-SA-2.5-ES", "explicit open license", "CC-BY-SA-3.0", "GPL-2.0-only", "CC-BY-NC-SA-4.0", "AGPL-3.0-only", "GFDL-1.3", "LGPL-2.0-only", "CC-BY-NC-SA-3.0", "unspecified", "LGPL-2.0-or-later", "CC-BY-4.0", "CC-BY-SA-4.0", "Apache-2.0", "CC-BY-NC-ND-4.0", "BSD-2-Clause-FreeBSD", "LGPL-3.0-only", "GPL-3.0-or-later", "CC-BY-2.5", "CC-BY-3.0", "CC-BY-NC-ND-3.0", "CC-BY-NC-4.0", "GPL-3.0-only", "CC-BY-NC-SA-2.0", "LGPL-3.0-or-later", "CC-BY-NC-3.0", "AGPL-1.0-or-later", "CC0 1.0", "CC-BY-SA-2.0", "BSD-3-Clause", "BSD-4-Clause", "GPL", "GNU General Public License v3.0 (GPL-3.0)", "GPL v3", "GPL - 2.0"]
+RISK_SCALE = ["Low", "Medium", "High"]
 
 class Validation():
     def __init__(self):
         self.topics = TOPICS
         self.data_types = DATA_TYPES
         self.licenses = LICENSES
+        self.risk_scale = RISK_SCALE
 
     def validate_metadata(self, metadata):
         validated_metadata = {
@@ -31,7 +33,10 @@ class Validation():
             "DATASET_NAME_OR_DESCRIPTION": self.validate_free_text(metadata.get("DATASET_NAME_OR_DESCRIPTION")),
             "DATE_OF_IDENTIFICATION": self.validate_date(metadata.get("DATE_OF_IDENTIFICATION")),
             "CONTACT": self.validate_free_text(metadata.get("CONTACT")),
-            "SOURCE_IDENTIFICATION_URL": self.validate_url(metadata.get("SOURCE_IDENTIFICATION_URL"))
+            "SOURCE_IDENTIFICATION_URL": self.validate_url(metadata.get("SOURCE_IDENTIFICATION_URL")),
+            "LEGAL_COMMENTS": self.validate_free_text(metadata.get("LEGAL_COMMENTS")),
+            "AUTHORS": self.validate_free_text(metadata.get("AUTHORS")),
+            "RISK_SCALE": self.validate_free_text(metadata.get("RISK_SCALE")),
         }
         
         # Preserve NAME and PATH if they exist
@@ -103,3 +108,6 @@ class Validation():
     
     def validate_free_text(self, text):
         return text if isinstance(text, str) else False
+
+    def validate_risk(self, risk):
+            return risk if risk in self.risk_scale else False
