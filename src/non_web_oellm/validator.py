@@ -59,6 +59,10 @@ DATA_TYPES = [
     "doc",
 ]
 LICENSES = [
+    "CC-BY-ND-3.0-ES",
+    "CC-BY-NC-3.0-ES",
+    "CC-BY-NC-2.5-ES",
+    "CC-BY-NC-ND-2.5-ES",
     "CC-BY-ND-4.0",
     "Public Domain Mark 1.0",
     "CC-BY-NC-SA-2.5-ES",
