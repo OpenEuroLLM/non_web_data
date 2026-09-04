@@ -32,6 +32,8 @@ TOPICS = [
     "Public Administration",
 ]
 DATA_TYPES = [
+    "jpg",
+    "m3u8",
     "tmx",
     "gz",
     "tar",
