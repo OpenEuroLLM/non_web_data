@@ -51,7 +51,6 @@ Please log your team name in the following table once you pick a language and st
 | Lithuanian (lit_Latn) | low | ELDA | |
 | Serbian (srp_Cyrl spr_Latn) | low | ELDA | |
 | Slovenian (slv_Latn) | low | ELDA | |
-| Turkish (tur_Latn) | low | ELDA | |
 | Bulgarian (bul_Cyrl) | mid-low | ELDA | |
 | Danish (dan_Latn) | mid-low | ELDA | |
 | Finnish (fin_Latn) | mid-low | ELDA | |
@@ -63,6 +62,7 @@ Please log your team name in the following table once you pick a language and st
 | Swedish (swe_Latn) | mid-low | ELDA | |
 | Ukrainian (ukr_Cyrl) | mid-low | ELDA | |
 | Czech (ces_Latn) | mid | ELDA | |
+| Turkish (tur_Latn) | mid| ELDA | |
 | Dutch (nld_Latn) | mid | ELDA | |
 | Polish (pol_Latn) | mid | ELDA | |
 
