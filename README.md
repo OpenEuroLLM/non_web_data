@@ -126,10 +126,6 @@ Columns in red will be used as part of the metadata for each file uploaded to th
 
 - **identified by**: use always the same name, with your organization in parentheses.
 
-- **legal comments**: free text to explain possible legal issues.
-
-- **risk scale**: this is a score to summarize the legal problems into a risk scale.
-
 
 
 
