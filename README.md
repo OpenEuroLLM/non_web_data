@@ -110,6 +110,12 @@ Columns in red will be used as part of the metadata for each file uploaded to th
 
 - **CONTACT**: if it is needed it is possible to add a contact email. NOT MANDATORY.
 
+- **RISK_SCALE**: in terms of legal issues. Values to be used: "Low", "Medium" and "High".
+
+- **AUTHORS**: name/s of the authors if relevant or necessary. It is validated as a free text.
+  
+- **LEGAL_COMMENTS**: relevant information about legal rights.
+
 <h4>1.3.2 Non metadata columns</h4>
 
 - **uploaded to the database**: only mark "yes" if all the files in the URL are properly validated and uploaded to the database.
@@ -173,11 +179,6 @@ Lastly, the validation and download process will create automatically more data 
 
 The rest of the metadata is derived from the corresponding rows of the Google sheet document.
 
-- **RISK_SCALE**: in terms of legal issues. Values to be used: "Low", "Medium" and "High".
-
-- **AUTHORS**: name/s of the authors if relevant or necessary. It is validated as a free text.
-  
-- **LEGAL_COMMENTS**: relevant information about legal rights.
 
 ![image](images/Imagen1.png)
 
