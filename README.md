@@ -106,7 +106,7 @@ Columns in red will be used as part of the metadata for each file uploaded to th
 
 - **COMMENTARY**: free text to explain relevant data to have into account in the metadata. NOT MANDATORY.
 
-- **MIXED_LANGUAGES**: list of co-present languages in the files. These must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
+- **MIXED_LANGUAGES**: list of co-present languages in the files following the 3 letter code ISO639. These must be separated by a comma (,), always written in the same form as in the LANGUAGE column, or as written before in any column if this language is not present in the LANGUAGE column.
 
 - **CONTACT**: if it is needed it is possible to add a contact email. NOT MANDATORY.
 
@@ -150,12 +150,15 @@ The first step in this process is to identify the structure of the data on the w
     "SOURCE_ORGANIZATION": "Euskariana", 
     "LICENSE": "CC-BY-NC-SA-4.0", 
     "DOWNLOAD_SOURCE": "https://www.euskariana.euskadi.eus/euskadibib/es/media/group/1557223.do", 
-    "MIXED_LANGUAGES": ["Spanish", "French"], 
+    "MIXED_LANGUAGES": ["spa", "fra"], 
     "COMMENTARY": "", 
     "DATASET_NAME_OR_DESCRIPTION": "Euskariana", 
     "DATE_OF_IDENTIFICATION": "31/01/2026",
     "CONTACT": "",
-    "SOURCE_IDENTIFICATION_URL": "https://www.euskariana.euskadi.eus/euskadibib/es/content/sections.do"
+    "SOURCE_IDENTIFICATION_URL": "https://www.euskariana.euskadi.eus/euskadibib/es/content/sections.do",
+    "RISK_SCALE": "Medium",
+    "AUTHORS": "Alberto Iturralde, Andrea González",
+    "LEGAL_COMMENTS": ""
 }
 ```
 There is one column that need to be created specifically for this JSONL file:
@@ -173,6 +176,12 @@ Lastly, the validation and download process will create automatically more data 
 - **NAME**: it corresponds to the file name, including its extension. The extension may change due to post-processing used to prevent database overload. For example, video files are converted to MP3 documents and WAV files are also converted to MP3 documents.
 
 The rest of the metadata is derived from the corresponding rows of the Google sheet document.
+
+- **RISK_SCALE**: in terms of legal issues. Values to be used: "Low", "Medium" and "High".
+
+- **AUTHORS**: name/s of the authors if relevant or necessary. It is validated as a free text.
+  
+- **LEGAL_COMMENTS**: relevant information about legal rights.
 
 ![image](images/Imagen1.png)
 
