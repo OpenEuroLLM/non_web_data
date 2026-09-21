@@ -209,7 +209,6 @@ TBC
 
 
 
-
 <h2>7. Recommendations and examples by Prompsit</h2>
 
 <h3>7.1.    Tips on how to find relevant data </h3>
