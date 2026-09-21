@@ -214,79 +214,37 @@ TBC
 
 <h3>7.1.    Tips on how to find relevant data </h3>
 
-First, it is recommended to search for government or regional official websites, institutions, ministries or publicly funded associations, looking for sections named “publications” or similar. These public websites used to cite other websites they fund or with which they collaborate. 
+<h4>Without CC search engine</h4>
 
-Then, looking for official state gazettes, civil/penal codes, constitutions and other public legal documents can lead to good results. 
+**(Almost) Always useful**
 
-After that, is may be worth searching for annual reports of banks, big companies, NGOs, etc.
+- Official Gazette (Statal or Regional)
+- Parliament publications/speeches
+- Penal code, civil code, constitutions and other kinds of laws
+- Universities: thesis, degree projects, journals, etc.
+- Webs of Municipalities, provincial governments, etc.
+- Historical Archives, National libraries, museums
 
-Besides this, the [CC](https://search.creativecommons.org/) search portal may be good to find other types of permissively licensed data. A good idea is to use random words from different topics plus the required format in quotes, for example, ‘gardening “pdf”’ or ‘sports “mp3”’. Looking for radios, televisions or podcasts in this CC searcher is also a good idea to find archived recorded programs.
+**Sometimes useful**
 
-<h3>7.2.    Tips on how to extract final URLS</h3>
+- Public radios or televisions
+- Associations
+- Annual reports of big banks, companies or similar entities
 
-Generally, in the data sources found, there are a few types of data structures:
+<h4>With CC search engine</h4>
 
-<h4>7.2.1 All the desired links are easily collectable from a single webpage</h4>
+> *Stop when always the same websites appear in any search*
 
-In this cases, if pagination is not very long, links can be collected by inspecting the page manually and copying the element that contains them:
-
-![image](images/Imagen2.png)
-
-Then, one can use a simple [Python tool](notebooks/all_files_from_copied_selection.ipynb) to extract URLs:
-
-![image](images/Imagen3.png)
-
-It is also possible to use a regex like `href="(.*?.pdf)"` or other tools but the former is a very quick option.
-
-If, on the other hand, if pagination is very long, one can scrap the box where the files of interest are placed and then extract automatically all file links. In these cases, the [Python tool](notebooks/all_files_in_box_with_pagination.ipynb) can be used. In this example the numbers of the "<a>" tags were used to extract all pagination links:
-
-![image](images/Imagen4.png)
-![image](images/Imagen5.png)
-
-There are multiple options even in this page. It is possible to explore URLs using the GET attribute "page":
-
-- https://www.or[...]ault.aspx?page=1
-
-In these cases you need to make sure that the number of pages is consistent, otherwise, if you try to access to some wrong URLs, it is possible that the server blocks your IP.
-
-Another usefull way to visit all the needed pages is to extract always the ">" button, until it is not present. This would need some changes in the [script](notebooks/all_files_in_box_with_pagination.ipynb).
-
-<h4>7.2.2 An ad hoc crawler/method is needed</h4>
-
-Often, it is impossible to only copy and extract links. Some websites need to be analyzed before choosing a valid method. The different examples below show different problems already found and possible approaches to solve them:
-
-- ARGIA: This news site has an interesting podcast section at https://www.argia.eus/.
-
-![image](images/Imagen6.png)
-
-First, access each podcast manually, e.g. https://www.argia.eus/multimedia/menda-bikoitza. Take a moment to explore a bit each podcast topic/domain to refine the info in the shared Google Sheets. 
-
-![image](images/Imagen7.png)
-
-Then, copy the HTML element where each chapter of the podcast is placed. Make sure that all podcasts are visible (e.g. scroll down the page to make the appear) before copying the HTML element.
-
-- Gipuzkoa Official Gazette
-
-The Gipuzkoa Gazette is intended to be explored by date or by keyword:
-
-![image](images/Imagen8.png)
-
-In this case, searching by year was the most sucessful strategy to get all the records. The year, e.g. 1996, was part of the URL in the GET attribute (`_BoletinOficial_WAR_LEEboletinOficialportlet_anio=1996`):
-
-- `https://egoitza.gipuzkoa.eus/eu/gao?p_p_id=BoletinOficial_WAR_LEEboletinOficialportlet&p_p_lifecycle=0&_BoletinOficial_WAR_LEEboletinOficialportlet_d-4021526-p=1&_BoletinOficial_WAR_LEEboletinOficialportlet_myaction=busqueda&_BoletinOficial_WAR_LEEboletinOficialportlet_isAvanzada=false&_BoletinOficial_WAR_LEEboletinOficialportlet_anio=1996`
+- Words unequivocally in the target language plus:
+  - `.pdf`, `.mp3`, `.wav`, etc.
+  - `Site: .cat`
+  - Podcast
+- Translation of these terms:
+  - Children's books
+  - Classic books
+  - Journal + topic
 
 
-![image](images/Imagen9.png)
-
-Each year could be processed as a regular page with pagination. In this case, however, it is necessay to do a two step page visit, becasuse the direct link of the final is inside the first one.
-
-![image](images/Imagen10.png)
-
-In similar cases, scraping the whole page and saving the intermediate links in a file can be useful to then, extract the final links in a subsequent step. For example, saving all the links in the above mentioned page in a txt results in:
-
-![image](images/Imagen11.png)
-
-Then, one can visit them to extract the links behind the "PDF" button. Be careful and avoid visiting them all at the same time, because you can overload the server and be banned.
 
 <h2>8. Recommendations and examples by ELDA</h2>
 
@@ -299,6 +257,7 @@ GPT-5.5). Consequently, a semi-automatic process, including human
 verification, was implemented to refine the analysis.
 
 <h3> Automatic identification process </h3>
+
 
 A step-by-step prompting approach was adopted to identify and document a
 large number of potential data sources. This methodology had previously
