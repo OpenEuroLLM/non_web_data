@@ -191,13 +191,45 @@ There are several strategies that can be used to extract the final files and the
 
 <h2>4.	Uploading the JSONL files to the server</h2>
 
-<h3>4.1.	Validation</h3>
+<h3>4.1. Upload and	Validation</h3>
 
+The place to upload the jsonl files is our server [Harpoon](https://harpoon.prompsit.com/). An user is needed to access to the portal, if you don't have one yet contact to @pablop16n.
 
-TBC
+![image](images/harpoon1.png)
 
-<h2>5. Automatic downloading of the files to a cluster</h2>
-TBC
+The `Dashboard` shows information about the data gathered and downloaded by all users:
+
+![image](images/harpoon2.png)
+
+The `Explorer` menu allows the user to find and visit singular donwloaded files:
+
+![image](images/harpoon3.png)
+
+The `Jobs` panel is used to upload the JSONL files and to manage the download process:
+
+![image](images/harpoon4.png)
+
+Use the `Submit New Job` to add new jobs. You can set some options in the configuration panel. Number of access for each job can be setted using the `Global Rate limit` configuration. The number of workers that will access and download each file is also configurable using the `Max Concurrent Workers` option. Limit these options as much as possible to avoid bans of servers. If you have already been banned from a website, please, use the VPN option. When all the configuration pass is finished use the `Submit & Start Job` button. Optionally it is possible to run a small test using the `Run Test` button, this is very usefull when, for example, you are not sure that final URLs are correct or compatible with our download strategies.
+
+![image](images/harpoon5.png)
+
+When you submit the form, the validation will start and, if there is any problem with the format of the JSONL, a message will be showed at the end of the panel:
+
+![image](images/harpoon6.png)
+
+To avoid validation problems, a [copy](https://github.com/OpenEuroLLM/non_web_data/blob/main/src/non_web_oellm/validator.py) of the server validator is placed in this repository to be used before the upload.
+
+Your uploaded jobs will be showed in the `Submitted Jobs` section:
+
+![image](images/harpoon7.png)
+
+You can pause, resume or delete each job. Also, at any time, you can add the failed files to the processing queue.
+
+Some information is accesible using the `Log` and the `View` panel. This is mainly useful to check the failed downloads:
+
+![image](images/harpoon8.png)
+
+We recommend not to delete jobs until check that the failed downloads persist after retry them with different strategies, like VPN or Playwright.
 
 <h2>6. Automatic processing of the files</h2>
 
