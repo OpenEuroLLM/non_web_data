@@ -43,7 +43,7 @@ Please log your team name in the following table once you pick a language and st
 | Macedonian (mkd_Cyrl) | low | ELDA | ELDA |
 | Maltese (mlt_Latn) | low | ELDA | ALT-EDIC |
 | Slovenian (slv_Latn) | low | ELDA | Prompsit |
-| Lithuanian (lit_Latn) | low | ELDA | |
+| Lithuanian (lit_Latn) | low | ELDA | Prompsit |
 | Croatian (hrv_Latn) | low | ELDA | ELDA |
 | Catalan (cat_Latn) | low | ELDA | Prompsit |
 | Serbian (srp_Cyrl spr_Latn) | low | ELDA | |
