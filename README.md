@@ -32,7 +32,7 @@ Languages with less resources sould be prioritized. A hint for picking your next
 Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular cycle: 
 
 
-|Language|Data availability| Cycle 0 - Completed | Cycle 1 - Ongoing|
+|Language|Data availability (`flag`| Cycle 0 - Completed | Cycle 1 - Ongoing|
 |--------|--------------|------------------|------------------|
 | Georgian (kat_Geor) | not tracked | ELDA | Prompsit |
 | Norwegian Nynorsk (nno_Latn) | very low | ELDA | Prompsit |
