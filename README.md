@@ -25,14 +25,14 @@ We do not want the text present on the web page itself, like HTML or similar, bu
 
 We will look for sources in particular languages. The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages).
 
-Languages with less resources sould be prioritized. A hint for picking your next language could be the following ranking showing the biggest web dataset available for the languages of interest, leaving out English, Italian, French, German, Portuguese and Spanish: 
+Languages with less resources sould be prioritized. A hint for picking your next language could be the following ranking showing data available for the languages of interest from the [`flag` collection counts]([https://docs.google.com/spreadsheets/d/1ERMeyCK1gKepeToE2TkwSuv_xYyQbggwaCYIIp3k-Y0/edit?gid=0#gid=0](https://github.com/OpenEuroLLM/training-data-collection/blob/main/flag/counts.csv)): 
 
 ![image](images/oellm-languages-web-dataset.png)
 
-Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular cycle: 
+Please log your team name in the following table once you pick a language and start working with it. These are all the priority languages with information about data availability and the team in charge for a particular non-web-data hunt and scavenge cycle: 
 
 
-|Language|Data availability (`flag`| Cycle 0 - Completed | Cycle 1 - Ongoing|
+|Language|Data availability (`flag`)| Cycle 0 - Completed | Cycle 1 - Ongoing|
 |--------|--------------|------------------|------------------|
 | Georgian (kat_Geor) | not tracked | ELDA | Prompsit |
 | Norwegian Nynorsk (nno_Latn) | very low | ELDA | Prompsit |
