@@ -25,7 +25,7 @@ We do not want the text present on the web page itself, like HTML or similar, bu
 
 We will look for sources in particular languages. The languages of interest are defined in the following [file](https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages).
 
-Languages with less resources sould be prioritized. A hint for picking your next language could be the following ranking showing data available for the languages of interest from the [flag collection counts](https://github.com/OpenEuroLLM/training-data-collection/blob/main/flag/counts.csv): 
+Languages with less resources sould be prioritized. A hint for picking your next language could be the following ranking showing data available for the languages of interest from the [flag collection source tokens breakdown](https://github.com/OpenEuroLLM/training-data-collection/tree/main/flag#breakdown) based on the raw [flag collection counts](https://github.com/OpenEuroLLM/training-data-collection/blob/main/flag/counts.csv): 
 
 ![image](images/oellm-languages-web-dataset.png)
 
