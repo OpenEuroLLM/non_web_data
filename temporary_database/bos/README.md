@@ -1,28 +1,28 @@
 # Document Scraping Statistics
 
-Generated on: 2026-09-29 15:17:27
+Generated on: 2026-09-30 11:26:26
 ---
 
 ## To Scrape
 
-**4928** documents to scrape, of which:
+**4026** documents to scrape, of which:
 
 ### Licenses
 
-- **4417** unspecified licenses for which we should decide what to do
+- **3515** unspecified licenses for which we should decide what to do
 - **511** CC-BY
 - **0** CC-BY-IGO
 
 **Details:**
 
-- unspecified: 4417
 - CC-BY-4.0: 287
+- unspecified: 3515
 - CC-BY-SA-4.0: 32
 - CC-BY-NC-4.0: 192
 
 ### Data Types
 
-- **4928** pdf
+- **4026** pdf
 
 ---
     
