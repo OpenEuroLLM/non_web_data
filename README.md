@@ -47,7 +47,7 @@ Please log your team name in the following table once you pick a language and st
 | Croatian (hrv_Latn) | low | ELDA | ELDA |
 | Catalan (cat_Latn) | low | ELDA | Prompsit |
 | Serbian (srp_Cyrl spr_Latn) | low | ELDA | |
-| Danish (dan_Latn) | low | ELDA | |
+| Danish (dan_Latn) | low | ELDA | ELDA |
 | Slovak (slk_Latn)| low | ELDA | |
 | Norwegian Bokmal (nob_Latn) | low | ELDA | |
 | Finnish (fin_Latn) | low | ELDA | |
