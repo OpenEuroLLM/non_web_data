@@ -44,10 +44,10 @@ Please log your team name in the following table once you pick a language and st
 | Icelandic (isl_Latn) | low | ELDA | ELDA |
 | Albanian (sqi_Latn als_Latn) | low | ELDA & Prompsit | Prompsit |
 | Bosnian (bos_Latn) | low | ELDA | ELDA |
-| Estonian (est_Latn ekk_Latn)| low | ELDA | Prompsit |
+| Estonian (est_Latn ekk_Latn)| low | ELDA | ALT-EDIC |
 | Slovenian (slv_Latn) | low | ELDA | Prompsit |
 | Latvian (lav_Latn ltg_Latn lvs_Latn) | low | ELDA | |
-| Serbian (srp_Cyrl spr_Latn) | low | ELDA | |
+| Serbian (srp_Cyrl spr_Latn) | low | ELDA | Prompsit |
 | Lithuanian (lit_Latn) | low | ELDA | Prompsit |
 | Catalan (cat_Latn) | low | ELDA | Prompsit |
 | Croatian (hrv_Latn) | low | ELDA | ELDA |
