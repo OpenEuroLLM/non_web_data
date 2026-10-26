@@ -56,6 +56,7 @@ Please log your team name in the following table once you pick a language and st
 | Danish (dan_Latn) | mid-low | ELDA | ELDA |
 | Finnish (fin_Latn) | mid-low | ELDA | |
 | Norwegian Bokmal (nob_Latn) | mid-low | ELDA | |
+| | | | |
 | Greek (ell_Grek) | mid-low | ELDA | |
 | Ukrainian (ukr_Cyrl) | mid-low | ELDA | |
 | Swedish (swe_Latn) | mid-low | ELDA | |
