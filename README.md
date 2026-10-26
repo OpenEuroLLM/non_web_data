@@ -62,6 +62,7 @@ Please log your team name in the following table once you pick a language and st
 | Swedish (swe_Latn) | mid-low | ELDA | |
 | Czech (ces_Latn) | mid-low | ELDA | |
 | Hungarian (hun_Latn) | mid-low | ELDA | |
+| | | | |
 | Romanian (ron_Latn) | mid | ELDA | |
 | Turkish (tur_Latn) | mid| ELDA | |
 | Dutch (nld_Latn) | mid | ELDA | |
