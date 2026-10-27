@@ -1,43 +1,43 @@
 # Document Scraping Statistics
 
-Generated on: 2026-10-26 17:40:54
+Generated on: 2026-10-27 17:10:46
 ---
 
 ## To Scrape
 
-**160864** documents to scrape, of which:
+**160860** documents to scrape, of which:
 
 ### Licenses
 
-- **114039** unspecified licenses for which we should decide what to do
-- **46638** CC-BY
+- **114036** unspecified licenses for which we should decide what to do
+- **46637** CC-BY
 - **0** CC-BY-IGO
 
 **Details:**
 
-- CC-BY-3.0: 2463
-- CC-BY-SA-3.0: 503
-- CC0 1.0: 187
-- CC-BY-4.0: 15199
-- unspecified: 114039
-- CC-BY-NC-4.0: 27472
 - CC-BY-SA-4.0: 1001
+- unspecified: 114036
+- CC-BY-4.0: 15198
+- CC-BY-3.0: 2463
+- CC0 1.0: 187
+- CC-BY-SA-3.0: 503
+- CC-BY-NC-4.0: 27472
 
 ### Data Types
 
-- **1939** doc
-- **45** mp4
-- **318** zip
-- **84** pptx
-- **8** csv
-- **1269** xlsx
-- **19** ppt
-- **7** rar
-- **148342** pdf
-- **18** html
-- **5** rtf
 - **8501** docx
+- **318** zip
+- **5** rtf
+- **45** mp4
+- **148338** pdf
+- **84** pptx
+- **18** html
+- **7** rar
+- **19** ppt
+- **1269** xlsx
+- **8** csv
 - **309** mp3
+- **1939** doc
 
 ---
     
