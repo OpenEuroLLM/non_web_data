@@ -52,9 +52,9 @@ Please log your team name in the following table once you pick a language and st
 | Catalan (cat_Latn) | low | ELDA | Prompsit |
 | Croatian (hrv_Latn) | low | ELDA | ELDA |
 | Slovak (slk_Latn)| mid-low | ELDA | |
-| Bulgarian (bul_Cyrl) | mid-low | ELDA | |
+| Bulgarian (bul_Cyrl) | mid-low | ELDA | ELDA |
 | Danish (dan_Latn) | mid-low | ELDA | ELDA |
-| Finnish (fin_Latn) | mid-low | ELDA | |
+| Finnish (fin_Latn) | mid-low | ELDA | ELDA |
 | Norwegian Bokmal (nob_Latn) | mid-low | ELDA | |
 | | | | |
 | Greek (ell_Grek) | mid-low | ELDA | |
