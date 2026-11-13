@@ -46,7 +46,7 @@ Please log your team name in the following table once you pick a language and st
 | Bosnian (bos_Latn) | low | ELDA | ELDA |
 | Estonian (est_Latn ekk_Latn)| low | ELDA | ALT-EDIC |
 | Slovenian (slv_Latn) | low | ELDA | Prompsit |
-| Latvian (lav_Latn ltg_Latn lvs_Latn) | low | ELDA | |
+| Latvian (lav_Latn ltg_Latn lvs_Latn) | low | ELDA | Prompsit |
 | Serbian (srp_Cyrl spr_Latn) | low | ELDA | Prompsit |
 | Lithuanian (lit_Latn) | low | ELDA | Prompsit |
 | Catalan (cat_Latn) | low | ELDA | Prompsit |
